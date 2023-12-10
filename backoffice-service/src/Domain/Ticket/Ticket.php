@@ -21,7 +21,7 @@ use Ramsey\Uuid\Uuid;
 class Ticket
 {
     const PREPARE_TICKET_TICKET = "ticket.prepareTicket";
-    const CANCEL_TICKET         = "ticket.cancel";
+    const CANCEL_TICKET = "ticket.cancel";
     const ASSIGN_TICKET = "ticket.assign";
 
     use WithAggregateVersioning;
